@@ -2,8 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 html, body{
     width: 100%;
     height: 100%;
+}
+
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #FFA4A4;
+    overflow: hidden;
+}
+
+.score-card{
+    width: 100%;
+    height: 100px;
+    background-color: #FFBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.box{
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+.game-bottom{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    background-color: #BADFDB;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
